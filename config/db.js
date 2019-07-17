@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 // to access the global variable from config we created
-const config = require('config');
+const config = require("config");
 // so we can use the mongoURI here
-const db = config.get('mongoURI');
+const db = config.get("mongoURI");
 /*
 const connectDB = () => {
   mongoose
@@ -26,7 +26,7 @@ const connectDB = async () => {
       useFindAndModify: false
     });
 
-    console.log('MongoDB Connected...');
+    console.log("MongoDB Connected...");
   } catch (err) {
     console.error(err.message);
     // Exit process with failure
