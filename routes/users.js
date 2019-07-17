@@ -62,6 +62,7 @@ router.post(
         }
       };
 
+      // send back a JSON of token
       jwt.sign(
         payload,
         config.get("jwtSecret"),
