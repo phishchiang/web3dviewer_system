@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://phish123:phish123@web3dviewer-5msnk.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
